@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import SoftwareTypes from "./components/SoftwareTypes";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById("root")).render(
     <SoftwareTypes />
     <FAQ />
     <About />
+    <Contact />
   </StrictMode>
 );
