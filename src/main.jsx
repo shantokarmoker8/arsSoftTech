@@ -8,6 +8,7 @@ import SoftwareTypes from "./components/SoftwareTypes";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById("root")).render(
     <FAQ />
     <About />
     <Contact />
+    <Footer />
   </StrictMode>
 );
