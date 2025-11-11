@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-import logo from "../assets/photo/logo.png";
+import logo from "../assets/photo/logo2.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
