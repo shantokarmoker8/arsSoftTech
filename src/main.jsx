@@ -12,13 +12,15 @@ import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Navbar />
-    <Header />
-    <Services />
-    <SoftwareTypes />
-    <FAQ />
-    <About />
-    <Contact />
-    <Footer />
+    <div>
+      <Navbar />
+      <Header />
+      <Services />
+      <SoftwareTypes />
+      <FAQ />
+      <About />
+      <Contact />
+      <Footer />
+    </div>
   </StrictMode>
 );

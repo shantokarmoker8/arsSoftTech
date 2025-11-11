@@ -13,7 +13,7 @@ export default function Header() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-bold mb-6"
+        className="text-2xl md:text-5xl font-bold mb-6"
       >
         We Build Smart Software Solutions
       </motion.h2>
@@ -21,7 +21,7 @@ export default function Header() {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
-        className="text-lg text-gray-300 max-w-2xl mb-8"
+        className="text-base md:text-lg text-gray-300 max-w-2xl mb-8"
       >
         Empowering businesses with custom software, web applications, and
         management systems.
@@ -33,7 +33,7 @@ export default function Header() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 1, duration: 0.5, type: "spring", stiffness: 100 }}
-        className="px-8 py-3 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition-all text-white"
+        className="text-base md:text-lg px-8 py-3 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition-all text-white"
       >
         Get Started
       </motion.a>
