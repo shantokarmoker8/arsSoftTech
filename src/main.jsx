@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import SoftwareTypes from "./components/SoftwareTypes";
+import FAQ from "./components/FAQ";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById("root")).render(
     <Header />
     <Services />
     <SoftwareTypes />
+    <FAQ />
   </StrictMode>
 );
