@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import logo from "../assets/photo/logo.png";
@@ -19,13 +19,16 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-[#000000] to-[#3533cd] shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
-        <div className="flex items-center">
+        <a
+          href="https://ars-soft-tech.vercel.app/"
+          className="flex items-center"
+        >
           <img
             src={logo}
             alt="Logo"
             className="w-24 sm:w-28 md:w-32 lg:w-36 h-auto"
           />
-        </div>
+        </a>
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex space-x-8">
